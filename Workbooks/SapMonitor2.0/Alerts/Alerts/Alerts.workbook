@@ -322,11 +322,11 @@
                       "linkTarget": "OpenBlade",
                       "linkIsContextBlade": true,
                       "bladeOpenContext": {
-                        "bladeName": "AlertDetailsTemplateBlade",
-                        "extensionName": "Microsoft_Azure_Monitoring",
+                        "bladeName": "ViewAlertRuleDetails.ReactView",
+                        "extensionName": "Microsoft_Azure_Monitoring_Alerts",
                         "bladeParameters": [
                           {
-                            "name": "alertId",
+                            "name": "resourceId",
                             "source": "column",
                             "value": "id"
                           }
